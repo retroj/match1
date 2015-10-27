@@ -1,0 +1,10 @@
+
+(compile -s -O3 -d0 match1.scm -j match1)
+(compile -s -O3 -d0 match1.import.scm)
+
+(install-extension
+  'match1
+  '("match1.so" "match1.import.so")
+  '((syntax)
+    (import-only)
+    (version 1.0)))

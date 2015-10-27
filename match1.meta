@@ -1,0 +1,6 @@
+
+((license "BSD")
+ (category lang-exts)
+ (author "John J. Foerch")
+ (synopsis "match1, match1-lambda, and match1-lambda*")
+ (depends matchable))
